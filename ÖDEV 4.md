@@ -57,34 +57,3 @@ Hazır kütüphane kullanmadan, Enable ve RS pinlerinin manuel (bit-banging) kon
 
 Kazanım: Hazır kütüphanelere bağımlı kalmadan çevresel birim kontrolü yeteneği.
 
-📂 Odev2_Digital_Clock: Gerçek Zamanlı Dijital Saat Algoritması
-Birinci aşamada geliştirdiğim sürücüyü kullanarak, işlemci üzerinde zamanı sayan ve bunu kullanıcıya gösteren bir mantık geliştirdim.
-
-Amaç: Mikrodenetleyici üzerinde zamanlama ve döngü yönetimi becerilerini geliştirmek.
-
-Teknik Detaylar:
-
-Saat, Dakika ve Saniye değişkenleri için taşma mantığının (60 saniye -> 1 dakika) C dili ile algoritmik tasarımı.
-
-SysCtlDelay fonksiyonları ile hassas zamanlama kalibrasyonu.
-
-Ekran yenileme sıklığının optimize edilerek "titreme" (flickering) sorununun çözülmesi.
-
-Kazanım: Algoritma tasarımı ve zaman-kritik döngü yönetimi.
-
-📂 Odev3_LCD_ADC: Analog Sinyal İşleme ve Veri Görselleştirme
-Sisteme dış dünyadan veri girişi ekleyerek, Tiva C'nin ADC (Analog-Dijital Dönüştürücü) modülünü aktif ettim ve sensör verilerini işledim.
-
-Amaç: Fiziksel dünyadan alınan analog verilerin dijital ortama aktarılması ve anlamlandırılması.
-
-Teknik Detaylar:
-
-Tiva C ADC0 modülünün ve Sample Sequencer (SS3) biriminin yapılandırılması.
-
-PE3 pininden 12-bitlik (0-4095) analog verinin okunması.
-
-Okunan ham verinin LCD ekran üzerinde, saat bilgisiyle çakışmadan dinamik olarak gösterilmesi.
-
-Kazanım: Gömülü sistemlerde sensör entegrasyonu ve ADC donanım hakimiyeti.
-
-

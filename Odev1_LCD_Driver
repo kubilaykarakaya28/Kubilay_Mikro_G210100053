@@ -1,0 +1,14 @@
+Odev1_LCD_Driver: Gömülü LCD Sürücü Kütüphanesi Tasarımı
+Bu aşamada hazır kütüphane (lcd.h vb.) kullanmak yerine, LCD'nin datasheet'ini inceleyerek Register Seviyesinde (Register Level) kendi sürücümü yazdım.
+
+Amaç: HD44780 tabanlı 16x2 LCD ekranın çalışma mantığını kavramak ve donanım üzerindeki kontrolü maksimize etmek.
+
+Teknik Detaylar:
+
+GPIO portlarının (PORTB) çıkış olarak yapılandırılması.
+
+Hazır kütüphane kullanmadan, Enable ve RS pinlerinin manuel (bit-banging) kontrolü.
+
+4-bit veri yolu iletişimi ve LCD başlatma (Initialization) sekansının kodlanması.
+
+Kazanım: Hazır kütüphanelere bağımlı kalmadan çevresel birim kontrolü yeteneği.

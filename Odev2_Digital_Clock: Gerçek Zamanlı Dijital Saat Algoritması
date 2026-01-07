@@ -1,0 +1,13 @@
+Birinci aşamada geliştirdiğim sürücüyü kullanarak, işlemci üzerinde zamanı sayan ve bunu kullanıcıya gösteren bir mantık geliştirdim.
+
+Amaç: Mikrodenetleyici üzerinde zamanlama ve döngü yönetimi becerilerini geliştirmek.
+
+Teknik Detaylar:
+
+Saat, Dakika ve Saniye değişkenleri için taşma mantığının (60 saniye -> 1 dakika) C dili ile algoritmik tasarımı.
+
+SysCtlDelay fonksiyonları ile hassas zamanlama kalibrasyonu.
+
+Ekran yenileme sıklığının optimize edilerek "titreme" (flickering) sorununun çözülmesi.
+
+Kazanım: Algoritma tasarımı ve zaman-kritik döngü yönetimi.
